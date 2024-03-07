@@ -9,7 +9,9 @@ media = (nota1 + nota2) / 2
 
 if (media >= 7.0) then
     puts "Alunoo Aprovado"
+elsif (media > 3.0 && media < 7.0) then
+    puts"Aluno em recuperação"   
 else
-    puts "Aluno em recuperação"
+    puts "Aluno reprovado"
 end
 
